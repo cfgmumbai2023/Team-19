@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import '../Styles/Menu.css';
 
 const Menu = ({title, type}) => {
   return (
     <div>
-      <div className='menLlist'>
-        <p id="name"> {title} </p>
-        <p id> {type} </p>
+      <div className='menulist'>
+        <div id="name"> {title} </div>
+        <div id="type"> {type} </div>
       </div>
     </div>
   )

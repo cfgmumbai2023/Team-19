@@ -1,0 +1,16 @@
+.menulist {
+    border: 1px solid rgb(138, 127, 127);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 2%;
+    width: 40%;
+    background-color : rgb(138, 127, 127);
+}
+
+#name {
+    margin-right : 10px;
+    font-size: 20px;
+}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../Styles/form1.css'; // Import the CSS file
 
 function RegistrationPage() {
   const [firstName, setFirstName] = useState('');
