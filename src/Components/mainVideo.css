@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+
+.sidebar1 {
+    flex: 20% !important;
+}
+
+.videoArea {
+    flex: 70% !important;
+}
